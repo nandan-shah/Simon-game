@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon | Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="sounds\favicon-16x16.png">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1 id="level-title">Press Any Key to Start</h1>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="rule-button">
+    <p class="rule-text">RULES</p>
+  </div>
+  <div class="rule hide">
+    <p>
+    <ul>
+      <li>
+        Press any button. Simon will give the first signal. Repeat the signal by pressing the same color lens.
+      </li>
+      <br>
+      <li>
+      Simon will duplicate the first signal and add one. Repeat these two signals by pressing the same color lenses, in order.
+      </li>
+      <br>
+      <li>
+        Simon will duplicate these first two signals and add one.
+      </li>
+        <br>
+      <li>
+        If you fail to repeat a sequence exactly,Simon responds with a "RAZZ" sound. This means you've lost, and the sequence of signals ends.
+      </li>
+    </ul>
+    </p>
+  </div>
+  <footer class="attribution">
+    Coded by_<a href="https://www.nandankumar.ml/"> Nandan kumar</a>.
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+
+
+</body>
+
+</html>
